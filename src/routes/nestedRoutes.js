@@ -20,7 +20,7 @@ class App extends React.Component {
 			<Router history={ hashHistory }>
 				<Route path="/" component={Home}>
 					<Route path="about" component={About}>
-						<Route path="contact" component={Contact}></Route>
+						<aRoute path="contact" component={Contact}></Route>
 					</Route>
 				</Route>
 			</Router>
