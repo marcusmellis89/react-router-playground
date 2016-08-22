@@ -15,7 +15,7 @@ const Links = () =>
 
 //Nested Routes
 class App extends React.Component {
-	render() {
+	render(){
 		return (
 			<Router history={ hashHistory }>
 				<Route path="/" component={Home}>
@@ -27,18 +27,5 @@ class App extends React.Component {
 		);
 	}
 }
-
-//Basic Route Setup
-// class App extends React.Component {
-// 	render() {
-// 		return (
-// 			<Router history={ hashHistory }>
-// 				<Route path="/" component={Home}></Route>
-// 				<Route path="/about" component={About}></Route>
-// 				<Route path="/contact" component={Contact}></Route>
-// 			</Router>
-// 		);
-// 	}
-// }
 
 export default App;
